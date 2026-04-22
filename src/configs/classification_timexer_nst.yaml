@@ -1,0 +1,37 @@
+seed: 2026
+paths:
+  data_root: data
+  results_root: results/classification/timexer_nst
+task: classification
+dataset_name: BasicMotions
+classification:
+  train_file: BasicMotions/BasicMotions_TRAIN.ts
+  test_file: BasicMotions/BasicMotions_TEST.ts
+  seq_len: 100
+  normalize: standard
+model:
+  name: timexer_nst
+  input_dim: auto
+  d_model: 64
+  nhead: 4
+  num_layers: 2
+  dim_feedforward: 128
+  dropout: 0.1
+  pooling: tokens_mean
+  patch_len: 10
+  patch_stride: 5
+  patch_padding: 0
+  n_globaltokens: 2
+  attn_dropout: 0.0
+  revin_affine: true
+  revin_subtract_last: false
+  tau_hidden_dim: 64
+  tau_max: 20.0
+  delta_clip: 10.0
+train:
+  batch_size: 16
+  num_workers: 0
+  epochs: 30
+  lr: 0.001
+  weight_decay: 0.0001
+  device: cpu

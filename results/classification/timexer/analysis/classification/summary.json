@@ -1,0 +1,26 @@
+{
+  "raw": {
+    "n_samples": 40,
+    "n_channels": 6,
+    "seq_len": 100,
+    "num_classes": 4,
+    "class_names": [
+      "Standing",
+      "Running",
+      "Walking",
+      "Badminton"
+    ]
+  },
+  "processed_train": {
+    "n_samples": 40,
+    "n_channels": 6,
+    "seq_len": 100,
+    "num_classes": 4,
+    "class_names": [
+      "Standing",
+      "Running",
+      "Walking",
+      "Badminton"
+    ]
+  }
+}

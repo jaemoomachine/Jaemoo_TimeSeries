@@ -1,0 +1,28 @@
+{
+  "raw": {
+    "n_rows": 17420,
+    "n_features": 7,
+    "features": [
+      "HUFL",
+      "HULL",
+      "MUFL",
+      "MULL",
+      "LUFL",
+      "LULL",
+      "OT"
+    ]
+  },
+  "processed_train": {
+    "n_rows": 12194,
+    "n_features": 7,
+    "features": [
+      "HUFL",
+      "HULL",
+      "MUFL",
+      "MULL",
+      "LUFL",
+      "LULL",
+      "OT"
+    ]
+  }
+}

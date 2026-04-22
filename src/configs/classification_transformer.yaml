@@ -1,0 +1,27 @@
+seed: 2026
+paths:
+  data_root: data
+  results_root: results/classification/transformer
+task: classification
+dataset_name: BasicMotions
+classification:
+  train_file: BasicMotions/BasicMotions_TRAIN.ts
+  test_file: BasicMotions/BasicMotions_TEST.ts
+  seq_len: 100
+  normalize: standard
+model:
+  name: transformer
+  input_dim: auto
+  d_model: 64
+  nhead: 4
+  num_layers: 2
+  dim_feedforward: 128
+  dropout: 0.1
+  pooling: mean
+train:
+  batch_size: 16
+  num_workers: 0
+  epochs: 30
+  lr: 0.001
+  weight_decay: 0.0001
+  device: cpu

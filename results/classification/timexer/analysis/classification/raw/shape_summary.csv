@@ -1,0 +1,2 @@
+﻿num_samples,num_channels,seq_len,num_classes,total_missing
+40,6,100,4,0

@@ -1,0 +1,5 @@
+﻿config,task,model_name,accuracy,macro_f1,loss
+src/configs/classification_transformer.yaml,classification,transformer,1.0,1.0,0.3162425637245178
+src/configs/classification_timexer.yaml,classification,timexer,0.95,0.9494949494949495,0.211506237834692
+src/configs/classification_timexer_revin.yaml,classification,timexer_revin,0.95,0.9484126984126984,0.22205636724829675
+src/configs/classification_timexer_nst.yaml,classification,timexer_nst,0.975,0.974937343358396,0.4175136208534241
